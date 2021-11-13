@@ -1,8 +1,3 @@
 .buttonRow {
   white-space: nowrap;
-  overflow: auto;
-}
-
-.buttonRow button {
-  margin-bottom: 4px;
 }
