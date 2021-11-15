@@ -27,3 +27,14 @@
   font-weight: 400;
   color: hsl(0deg, 0%, 30%);
 }
+
+@media (max-width: 500px) {
+  .controlPane {
+    /* Allow the control panes to fill the width of the screen */
+    width: 100%;
+    /* Make the control panes flow to the right */
+    display: inline-block;
+    /* Add some spacing between them */
+    margin-right: 32px;
+  }
+}

@@ -45,3 +45,50 @@
   width: 100%;
   bottom: 0;
 }
+
+@media (max-width: 500px) {
+  .characterEditor {
+    /* Reduce vertical padding */
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .header {
+    /* Drop wrapping of header */
+    width: initial;
+  }
+
+  .title {
+    /* Drop font size of header */
+    font-size: 1.5rem;
+  }
+
+  .description {
+    /* Hide description */
+    display: none;
+  }
+
+  .controlColumn {
+    /* Enable horizontal scrolling */
+    overflow: auto;
+    white-space: nowrap;
+    /* Put controls on the bottom */
+    position: fixed;
+    /* Constrain the width or else the controls go whacky */
+    width: 100vw;
+    bottom: 100px;
+  }
+
+  .characterWrapper {
+    /* Put the character behind */
+    z-index: -1;
+    /* And make it fit in the screen */
+    width: 100vw;
+    right: initial;
+  }
+
+  .background {
+    /* Hide the background */
+    display: none;
+  }
+}

@@ -8,3 +8,14 @@
 .footer a {
   color: white;
 }
+
+@media (max-width: 500px) {
+  .footer {
+    /* Make the footer stick to the bottom */
+    position: fixed;
+    bottom: 0;
+    /* Shrink its whitespace */
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
