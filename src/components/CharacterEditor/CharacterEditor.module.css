@@ -7,6 +7,8 @@
 }
 
 .header {
+  /* Needed so the background doesn't cover the header text */
+  position: relative;
   padding-bottom: 64px;
   width: 65%;
 }
@@ -34,4 +36,12 @@
 
 .controlColumn {
   width: 50%;
+}
+
+.background {
+  background: hsl(195deg, 20%, 86%);
+  position: fixed;
+  height: 40%;
+  width: 100%;
+  bottom: 0;
 }
